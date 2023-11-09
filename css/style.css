@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardtitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+   
+
+}
+
+.about1{
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    color: #7EB693;
+
+}
+
+.open-san{
+  
+
+font-family: Open Sans !important;
+font-weight: 400;
+
+}
+.hcolor{
+    color: #274C5B !important;
+}
+.p-color{
+    color: #525C60;
+}
+.text-tertiary{
+    color: #B8B8B8
+}
+
+
+.shop , .loadmore-btn{
+    background-color:  #274C5B !important;
+    width: 180px;
+    height: 70px;
+}
+
+.Products-container , .Products-container-offer , .Products-container-offer1 {
+    
+    display: grid;
+    grid-template-columns: repeat( auto-fill, 285px);
+    grid-template-rows: 350px 350px;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    
+   
+}
+.Products-container-10{
+    
+    display: grid;
+    grid-template-columns: repeat( auto-fill, 285px);
+    grid-template-rows: 350px 350px 350px;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+   
+    
+    
+}
+.loadmore-btn{
+    
+  display: block;
+
+    
+
+}
+.Products-container-offer{
+   
+    grid-template-rows: 350px;
+    padding-bottom: 70px;
+   
+
+}
+.Products-container-offer1{
+    grid-template-columns: repeat( auto-fill, 285px);
+    grid-template-rows: 350px;
+    
+   
+    padding: 70px 0;
+}
+.yellow-color{
+    background-color: #EFD372 !important;
+}
+
+.vege-img{
+    width: 240px;
+   
+    
+}
+.vege-img1 {
+ width: 285px; 
+ height: 285px;
+
+
+}
+
+.broco-card{
+    width: 250px;
+   
+}
+.h4-fontfamily{ font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.text-orange{
+    color: #FFA858;
+
+}
+ 
+.section-4{
+   
+   background-color:  #274C5B;
+   
+   margin-top:70px ;
+}
+.offer-div{
+   padding: 60px 8.8vw !important;
+   
+}
+
+
+
+@media  screen and (max-width:992px){
+    .right-div{
+        position: static !important;
+      
+        min-width: 300px;
+    }
+   .min-w{
+        min-width: 250px !important;
+    }
+    .new-he{
+        height: max-content !important;
+
+    }
+  
+    .margin-auto{
+        margin: auto;
+    }
+}
